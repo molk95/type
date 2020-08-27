@@ -38,3 +38,6 @@ var sing = function () {
 var error = function () {
     throw Error('ooops');
 };
+var fightRobotArmy = function (robots) {
+    console.log('Fight!');
+};
