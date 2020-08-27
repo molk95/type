@@ -1,8 +1,24 @@
-const  sum = (a: number, b: number) => {
-    return a + b
+// boolean
+
+let isCool: boolean = true
+
+//number
+
+let age: number = 25
+
+//string
+let eyeColor: string= 'blue'
+let favouriteQuote: string = `I'm not old, I'm only ${age}`
+
+//Arrays
+let Pets: string[]= ['cat','dog','pig']
+let superNpets: Array<string> = ['deagon', 'vampire', 'warewolf']
+
+//object
+let wizard: object ={
+    a: 'jane'
 }
 
-const answer = sum(5,5)
-console.log(answer
-    )
-
+// null and undefined
+let meh: undefined =undefined
+let noo: null= null
