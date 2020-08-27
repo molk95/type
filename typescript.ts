@@ -90,3 +90,7 @@ class Animal {
 let lion = new Animal("raawr");
 // lion.sing
 lion.greet();
+
+
+// Union 
+let confued: string | number | boolean = 'hello'

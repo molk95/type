@@ -61,3 +61,5 @@ var Animal = /** @class */ (function () {
 var lion = new Animal("raawr");
 // lion.sing
 lion.greet();
+// Union 
+var confued = 'hello';
