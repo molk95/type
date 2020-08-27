@@ -40,23 +40,32 @@ let shirtSize: number = Size.small;
 let whatever: any = "aghhhhhhhhhhhhhhhhhhhhh nooooooooooooooo!!!!";
 whatever = basket;
 
-// void 
-let sing = () : void => {
-    console.log('lala land')
-}
+// void
+let sing = (): void => {
+  console.log("lala land");
+};
 
 // never
 let error = (): never => {
-    throw  Error('ooops')
-}
+  throw Error("ooops");
+};
 
 // interface
 interface RobotArmy {
-    count: number,
-    type: string,
-    magic:string
+  count: number;
+  type: string;
+  magic: string;
 }
 
-let fightRobotArmy = (robots:RobotArmy)=> {
-    console.log('Fight!')
+let fightRobotArmy = (robots: RobotArmy) => {
+  console.log("Fight!");
+};
+
+// Type Assertion
+interface CatArmy {
+  count: number;
+  type: string;
+  magic: string;
 }
+let dog = {} as CatArmy;
+dog.count;

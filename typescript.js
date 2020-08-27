@@ -30,14 +30,16 @@ var shirtSize = Size.small;
 // Any !!!!!!!!!!!!!!!!! BE CAREFUL
 var whatever = "aghhhhhhhhhhhhhhhhhhhhh nooooooooooooooo!!!!";
 whatever = basket;
-// void 
+// void
 var sing = function () {
-    console.log('lala land');
+    console.log("lala land");
 };
 // never
 var error = function () {
-    throw Error('ooops');
+    throw Error("ooops");
 };
 var fightRobotArmy = function (robots) {
-    console.log('Fight!');
+    console.log("Fight!");
 };
+var dog = {};
+dog.count;
