@@ -15,3 +15,15 @@ var wizard = {
 // null and undefined
 var meh = undefined;
 var noo = null;
+//Tuple
+var basket;
+basket = ['shots', 10];
+//Enum
+var Size;
+(function (Size) {
+    Size[Size["small"] = 1] = "small";
+    Size[Size["Medium"] = 2] = "Medium";
+    Size[Size["large"] = 3] = "large";
+})(Size || (Size = {}));
+// let shirtSize : string = Size.small
+var shirtSize = Size.small;

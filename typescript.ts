@@ -22,3 +22,12 @@ let wizard: object ={
 // null and undefined
 let meh: undefined =undefined
 let noo: null= null
+
+//Tuple
+let basket: [string,number]
+basket= ['shots',10]
+
+//Enum
+enum Size {small=1,Medium=2, large=3}
+// let shirtSize : string = Size.small
+let shirtSize : number = Size.small
