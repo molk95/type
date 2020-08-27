@@ -63,3 +63,6 @@ var lion = new Animal("raawr");
 lion.greet();
 // Union 
 var confued = 'hello';
+//
+var x = 4;
+x = 'hi';

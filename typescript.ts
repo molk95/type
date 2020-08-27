@@ -94,3 +94,7 @@ lion.greet();
 
 // Union 
 let confued: string | number | boolean = 'hello'
+
+//
+let x = 4
+x = 'hi'
